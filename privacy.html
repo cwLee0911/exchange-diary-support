@@ -26,7 +26,7 @@
 
   <h2>1. 받는 정보</h2>
   <ul>
-    <li><strong>계정:</strong> Apple로 로그인할 때 받는 사용자 식별자와 이메일(Apple이 가려 준 주소일 수 있어요), 처음 로그인할 때 Apple이 알려 주는 이름(닉네임으로 써요)</li>
+    <li><strong>계정:</strong> Apple 또는 Google로 로그인할 때 받는 사용자 식별자와 이메일(Apple이 가려 준 주소일 수 있어요), 처음 로그인할 때 알려 주는 이름(닉네임으로 써요)</li>
     <li><strong>프로필:</strong> 닉네임</li>
     <li><strong>내가 올린 내용:</strong> 일기 페이지(글·사진·영상·손글씨·스티커), 댓글, 채팅(글·사진·영상·그림), 일정·디데이, 일기방 이름</li>
     <li><strong>알림:</strong> 콕·새 일기 알림을 보내기 위한 기기의 푸시 알림 토큰</li>
@@ -47,11 +47,12 @@
   <h2>4. 처리를 맡기는 곳과 저장 위치</h2>
   <ul>
     <li><strong>Supabase:</strong> 데이터베이스와 사진·영상 파일 저장 (서버 위치: 대한민국 서울)</li>
-    <li><strong>Apple:</strong> Apple로 로그인, 푸시 알림 전달</li>
+    <li><strong>Apple:</strong> Apple로 로그인, 아이폰·아이패드 푸시 알림 전달</li>
+    <li><strong>Google:</strong> Google로 로그인, 안드로이드 푸시 알림 전달(Firebase 클라우드 메시징)</li>
   </ul>
 
   <h2>5. 보관 기간과 삭제</h2>
-  <p>계정을 지우기 전까지 보관해요. 앱의 설정 → 계정 연동 → <strong>계정 삭제</strong>를 누르면 내 계정, 닉네임, 내가 쓴 일기·댓글·채팅, 올린 사진·영상, 내가 만든 일정, 일기방 참여 기록, 알림 토큰이 바로 지워지고 되돌릴 수 없어요. 혼자 남은 일기방도 함께 지워져요. 일기·댓글·채팅은 앱에서 언제든 하나씩 지울 수도 있어요.</p>
+  <p>계정을 지우기 전까지 보관해요. 앱의 설정 → 계정 연동 → <strong>계정 삭제</strong>를 누르면 내 계정, 닉네임, 내가 쓴 일기·댓글·채팅, 올린 사진·영상, 내가 만든 일정, 일기방 참여 기록, 알림 토큰이 바로 지워지고 되돌릴 수 없어요. 혼자 남은 일기방도 함께 지워져요. 앱 없이 지우는 방법은 <a href="delete-account.html">계정 삭제 안내</a>에 있어요. 일기·댓글·채팅은 앱에서 언제든 하나씩 지울 수도 있어요.</p>
 
   <h2>6. 이용자의 권리</h2>
   <p>앱에서 닉네임을 바꾸고, 내 일기·댓글을 지우고, 계정을 삭제할 수 있어요. 열람·정정·삭제·처리정지 요청은 아래 메일로 보내 주시면 바로 처리해요. 만 14세 미만은 보호자의 동의를 받아 이용해 주세요.</p>
@@ -69,7 +70,7 @@
   <p>Exchange Diary (the "app") collects only what it needs to let friends share a diary, and uses it only for that.</p>
   <h2>1. What we collect</h2>
   <ul>
-    <li><strong>Account:</strong> the user identifier and email address from Sign in with Apple (this may be an Apple private relay address), and the name Apple shares on first sign-in, used as your nickname</li>
+    <li><strong>Account:</strong> the user identifier and email address from Sign in with Apple or Google (with Apple this may be a private relay address), and the name shared on first sign-in, used as your nickname</li>
     <li><strong>Profile:</strong> your nickname</li>
     <li><strong>Your content:</strong> diary pages (text, photos, videos, handwriting, stickers), comments, chat messages (text, photos, videos, drawings), events and D-days, room names</li>
     <li><strong>Notifications:</strong> your device's push notification token</li>
@@ -81,9 +82,9 @@
   <h2>3. Who can see it</h2>
   <p>Your content and nickname are visible only to friends in the same room. We look at reported content only to handle the report. We never sell your data or use it for ads.</p>
   <h2>4. Service providers</h2>
-  <p>Supabase (database and file storage, servers in Seoul, South Korea) and Apple (Sign in with Apple, push notifications).</p>
+  <p>Supabase (database and file storage, servers in Seoul, South Korea) Apple (Sign in with Apple, iPhone and iPad push notifications) and Google (Sign in with Google, Android push notifications via Firebase Cloud Messaging).</p>
   <h2>5. Retention and deletion</h2>
-  <p>We keep your data until you delete your account. Settings → Account → <strong>Delete Account</strong> immediately and permanently deletes your account, nickname, pages, comments, chat messages, photos, videos, events you created, room memberships and push tokens. Rooms where you were the only member are deleted too.</p>
+  <p>We keep your data until you delete your account. Settings → Account → <strong>Delete Account</strong> immediately and permanently deletes your account, nickname, pages, comments, chat messages, photos, videos, events you created, room memberships and push tokens. Rooms where you were the only member are deleted too. To delete without the app, see <a href="delete-account.html">Delete Account</a>.</p>
   <h2>6. Your rights and contact</h2>
   <p>You can change your nickname, delete your content and delete your account in the app. For any other request, email <a href="mailto:lamber0911dn@gmail.com">lamber0911dn@gmail.com</a>. If this policy changes, we'll update this page and let you know in the app.</p>
 </main>
